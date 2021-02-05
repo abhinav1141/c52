@@ -1,0 +1,61 @@
+body{
+    background-color:grey;
+    margin: 0px;
+    position: absolute;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    color:yellow;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+    padding: 15px;
+}
+.grid img{
+    border: 2px solid red;
+    border-radius: 50px;
+     
+    
+}
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    margin: 5px;
+    padding: 30px;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+.bodyimg{
+    background-image: url("nain2.jpg") ;
+    width: 1500px ;
+    height: 400px;
+    color:wheat;
+    font-size: medium;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    font-size: 50px;
+}
+.origami:hover{
+    transform: scale(1.5,1.5);
+}
+.bodyimg{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
